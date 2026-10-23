@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs><linearGradient id="p" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f8f4ea"/><stop offset="1" stop-color="#efe7d6"/></linearGradient></defs>
+  <rect width="512" height="512" fill="url(#p)"/>
+  <g transform="rotate(-9 256 270)"><rect x="132" y="104" width="232" height="300" rx="18" fill="#1b1a17"/></g>
+  <g transform="rotate(6 256 270)">
+    <rect x="150" y="118" width="232" height="300" rx="18" fill="#fbf8f1" stroke="#1b1a17" stroke-width="8"/>
+    <path d="M196 214 C232 206 290 200 338 206 C344 207 344 215 338 216 C292 222 236 226 198 228 C188 228 186 216 196 214Z" fill="#1b1a17"/>
+    <path d="M262 160 C270 158 274 164 273 172 L268 352 C267 366 254 368 252 354 L250 172 C250 164 255 161 262 160Z" fill="#1b1a17"/>
+    <path d="M208 290 C226 288 236 300 228 310 C214 326 196 336 186 330 C180 326 190 304 208 290Z" fill="#1b1a17"/>
+    <path d="M300 286 C318 292 338 308 342 322 C344 332 330 334 320 326 C306 314 296 300 300 286Z" fill="#1b1a17"/>
+  </g>
+  <g transform="rotate(-6 352 376)">
+    <rect x="300" y="324" width="104" height="104" rx="10" fill="#c8372d"/>
+    <rect x="309" y="333" width="86" height="86" rx="6" fill="none" stroke="#fbefe0" stroke-width="5"/>
+    <path d="M330 356h44M352 348v60M334 380h36M336 404h32" stroke="#fbefe0" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>

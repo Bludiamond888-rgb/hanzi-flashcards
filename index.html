@@ -2,17 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=https://bludiamond888-rgb.github.io/hanzi-path/" />
     <meta name="theme-color" content="#f6f1e6" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Flashcards" />
-    <meta name="description" content="Daily spaced-repetition flashcards for the 178 HSK 1 characters." />
+    <meta name="description" content="Hanzi Flashcards has moved into Hanzi Path. Use the Cards tab there." />
     <link rel="manifest" href="./manifest.webmanifest" />
     <link rel="icon" type="image/svg+xml" href="./icons/icon.svg" />
-    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png" />
-    <title>Hanzi Flashcards 汉字卡</title>
+    <title>Moved to Hanzi Path</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('./sw.js').catch(function () {});
+      }
+      location.replace('https://bludiamond888-rgb.github.io/hanzi-path/');
+    </script>
   </head>
-  <body><div id="root"></div><script type="module" src="/src/main.tsx"></script></body>
+  <body>
+    <main style="font-family: system-ui, sans-serif; max-width: 36rem; margin: 3rem auto; padding: 1rem; line-height: 1.5;">
+      <h1>Hanzi Flashcards has moved</h1>
+      <p>
+        This app is now the <strong>Cards</strong> tab inside
+        <a href="https://bludiamond888-rgb.github.io/hanzi-path/">Hanzi Path</a>.
+      </p>
+      <p><a href="https://bludiamond888-rgb.github.io/hanzi-path/">Continue to Hanzi Path →</a></p>
+    </main>
+  </body>
 </html>
